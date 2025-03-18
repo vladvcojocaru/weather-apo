@@ -1,7 +1,7 @@
 from tkinter import *
 import tkinter as tk
 from geopy.geocoders import Nominatim
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox 
 from timezonefinder import TimezoneFinder
 from datetime import datetime
 from dotenv import load_dotenv
@@ -55,15 +55,6 @@ def getWeather():
     h.config(text=humidity)
     d.config(text=description)
     p.config(text=pressure)
-
-
-
-
-
-
-
-
-
 
 
 
